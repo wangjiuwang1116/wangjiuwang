@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="wangjiu">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="minimal-ui,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script type="text/javascript" src="./js/fontSize.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+    <script src="./lib/angular.min.js"></script>
+    <script src="./lib/angular-ui-router.js"></script>
+    <script src="./lib/angular-css.min.js"></script>
+    <script type="text/javascript" src="./js/me-lazyload.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    
+    <!-- 底部菜单 -->
+     <footer class="footer" ng-controller="myCtrl">
+         <ul >
+            <li class="footer_1">
+                <div class="footer_1_div"></div>
+                <a ui-sref="home">首页</a>
+            </li>
+            <li class="footer_2">
+                <div class="footer_2_div"></div>
+                <a ui-sref="classify">分类</a>
+            </li>
+            <li class="footer_3">
+                <div class="footer_3_div"></div>
+                <a ui-sref="cart">购物车</a>
+            </li>
+            <li class="footer_4">
+                <div class="footer_4_div"></div>
+                <a ui-sref="mine">我的</a>
+            </li>
+        </ul>
+     </footer>
+    <script src="app.js"></script>
+    <script src="./modules/cart/cart.js"></script>
+    <script src="./modules/chat/chat.js"></script>
+    <script src="./modules/classify/classify.js"></script>
+    <script src="./modules/comment/comment.js"></script>
+    <script src="./modules/cartoon/cartoon.js"></script>
+    <script src="./modules/details/details.js"></script>
+    <script src="./modules/favorite/favorite.js"></script>
+    <script src="./modules/goods/goods.js"></script>
+    <script src="./modules/gouwuche/gouwuche.js"></script>
+    <script src="./modules/home/home.js"></script>
+    <script src="./modules/lingjuan/lingjuan.js"></script>
+    <script src="./modules/liuyan/liuyan.js"></script>
+    <script src="./modules/meishi/meishi.js"></script>
+    <script src="./modules/miaosha/miaosha.js"></script>
+    <script src="./modules/mine/mine.js"></script>
+    <script src="./modules/moive/moive.js"></script>
+    <script src="./modules/putaojiu/putaojiu.js"></script>
+    <script src="./modules/ruffian/ruffian.js"></script>
+    <script src="./modules/search/search.js"></script>
+    <script src="./modules/shangou/shangou.js"></script>
+    <script src="./modules/sort1/sort1.js"></script>
+    <script src="./modules/sort2/sort2.js"></script>
+    <script src="./modules/story/story.js"></script>
+    <script src="./modules/toutiao/toutiao.js"></script>
+    <script src="./modules/xianshi/xianshi.js"></script>
+    <script src="./modules/zhuangyuan/zhuangyuan.js"></script>
+</body>
+</html>
